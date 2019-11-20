@@ -257,15 +257,15 @@
         left: auto;
         bottom: auto;
         margin: 2vw 0;
-        font-size: 2.51vw;
+        font-size: 3vw;
     }
     .block.first::before {
-        top: 6.75vw;
-        font-size: 20vw;
+        top: 10.5vw;
+        font-size: 28vw;
     }
     .block.second::before {
-        top: 7.5vw;
-        font-size: 20vw;
+        top: 10.5vw;
+        font-size: 29vw;
     }
     .blocks:first-child::before {
         left: -0.5vw;
@@ -278,6 +278,10 @@
         width: 20vw;
         height: 18vw;
         top: 15vw;
+    }
+    .blocks:first-child .block.first p {
+        max-width: 70%;
+        margin: 0 auto;
     }
     .mechanics .blocks:last-child {
         flex-direction: row;
@@ -365,5 +369,26 @@
         top: 14vw;
         width: 17vw;
         height: 8vw;
+    }
+    #map {
+        height: 65vw;
+    }
+    .map h2::after {
+        height: 5vw;
+        width: 5vw;
+    }
+    footer {
+        padding-bottom: 14vw;
+    }
+    footer p {
+        padding: 0 6vw;
+        font-size: 2.5vw;
+    }
+    footer::after {
+        width: 80vw;
+        height: 13vw;
+    }
+    .price-box p {
+        font-size: 3vw;
     }
 }
