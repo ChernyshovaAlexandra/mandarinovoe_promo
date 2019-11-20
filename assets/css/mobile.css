@@ -367,11 +367,9 @@
     .prices a.btn {
         margin-top: -7vw;
     }
-    .prices.oranged {
-        padding-bottom: 12vw;
-    }
+    
     .raffle.oranged::before {
-        top: 14vw;
+        top: 18.5vw;
         width: 17vw;
         height: 8vw;
     }
@@ -389,6 +387,12 @@
         padding: 0 6vw;
         font-size: 2.5vw;
     }
+    footer h2{
+        font-size: 4.52vw;
+        max-width: 88%;
+        margin: -5vw auto 5vw;
+        line-height: 1.5;
+    }
     footer::after {
         width: 80vw;
         height: 13vw;
@@ -396,5 +400,13 @@
     .price-box p {
         font-size: 3vw;
     }
-
+    .raffle.oranged {
+        background: url(../img/trees-bg.svg) no-repeat, url(../img/raffle-snowflakes-bg.png) no-repeat 54%;
+        background-size: cover, 95%;
+        background-blend-mode: multiply;
+        position: relative;
+        margin: -20vw 0;
+        padding: 22vw 0;
+        margin-bottom: -10vw;
+    }
 }
