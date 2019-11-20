@@ -116,6 +116,9 @@
 /* mobile */
 
 @media screen and (max-width: 630px) {
+    main, section, footer {
+        padding: 15vw 0;
+    }
     main .container.flexing {
         justify-content: center;
         flex-direction: column;
@@ -132,6 +135,7 @@
         background: url(../img/oranged-bg-main-mobile.jpg), url(../img/snowflakes-bg.png);
         background-size: 101%, 110%;
         background-position: 2vw -6vw, 0 0;
+        padding-top: 5vw;
     }
     .dating {
         font-size: 3vw;
@@ -391,4 +395,5 @@
     .price-box p {
         font-size: 3vw;
     }
+
 }

@@ -99,7 +99,7 @@ window.addEventListener('resize', onResize, false);
 
 sky.appendChild(canvas);
 
-var gui = new dat.GUI();
-gui.add(window, 'particleCount').min(1).max(particleMax).step(1).name('Particles count').onFinishChange(function() {
-  requestAnimFrame(update);
-});
+// var gui = new dat.GUI();
+// gui.add(window, 'particleCount').min(1).max(particleMax).step(1).name('Particles count').onFinishChange(function() {
+//   requestAnimFrame(update);
+// });
