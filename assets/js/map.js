@@ -2623,10 +2623,4 @@ function init() {
         }
         objectManager.add(resultingData);
     });
-
-
-
-    
-    
-    
 }
