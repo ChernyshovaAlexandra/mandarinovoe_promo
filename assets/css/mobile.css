@@ -1,0 +1,19 @@
+@media screen and(max-width: 769px){
+    .blocks{
+        max-width: 60vw;
+    }
+    .block{
+        font-size: 1.51vw;
+    }
+    .block.second::before{
+    top: 8.5vw;
+    font-size: 23vw;
+    }
+    .block.first::before{
+        top: 7.85vw;  
+        top: 7.85vw;
+    }
+    .no-bg p{
+        font-size: 2vw;
+    }
+}
