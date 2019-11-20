@@ -132,9 +132,9 @@
         align-items: center;
     }
     main.oranged {
-        background: url(../img/oranged-bg-main-mobile.jpg), url(../img/snowflakes-bg.png);
-        background-size: 101%, 110%;
-        background-position: 2vw -6vw, 0 0;
+        background: url(../img/oranged-bg-main-mobile.jpg), url(../img/snowflakes-bg-mobile.png);
+        background-size: 101%, 100%;
+        background-position: 2vw -6vw, -4vw -6vw;
         padding-top: 5vw;
     }
     .dating {
